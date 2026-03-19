@@ -1,0 +1,21 @@
+2026-03-18 08:28:26,078 INFO    MainThread:31124 [wandb_setup.py:_flush():81] Current SDK version is 0.25.1
+2026-03-18 08:28:26,078 INFO    MainThread:31124 [wandb_setup.py:_flush():81] Configure stats pid to 31124
+2026-03-18 08:28:26,078 INFO    MainThread:31124 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-03-18 08:28:26,078 INFO    MainThread:31124 [wandb_init.py:setup_run_log_directory():717] Logging user logs to D:\nanoGPT-master\nanoGPT-master\wandb\offline-run-20260318_082826-gmc0t4ig\logs\debug.log
+2026-03-18 08:28:26,078 INFO    MainThread:31124 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to D:\nanoGPT-master\nanoGPT-master\wandb\offline-run-20260318_082826-gmc0t4ig\logs\debug-internal.log
+2026-03-18 08:28:26,079 INFO    MainThread:31124 [wandb_init.py:init():844] calling init triggers
+2026-03-18 08:28:26,079 INFO    MainThread:31124 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'out_dir': 'out', 'eval_interval': 1000, 'log_interval': 10, 'eval_iters': 200, 'eval_only': False, 'always_save_checkpoint': True, 'init_from': 'scratch', 'wandb_log': True, 'wandb_project': 'owt', 'wandb_run_name': 'gpt2-124M', 'dataset': 'openwebtext', 'gradient_accumulation_steps': 1, 'batch_size': 8, 'block_size': 128, 'n_layer': 4, 'n_head': 4, 'n_embd': 256, 'dropout': 0.0, 'bias': False, 'learning_rate': 0.0006, 'max_iters': 1000, 'weight_decay': 0.1, 'beta1': 0.9, 'beta2': 0.95, 'grad_clip': 1.0, 'decay_lr': True, 'warmup_iters': 2000, 'lr_decay_iters': 600000, 'min_lr': 6e-05, 'backend': 'nccl', 'device': 'cpu', 'dtype': 'float16', 'compile': False, '_wandb': {}}
+2026-03-18 08:28:26,079 INFO    MainThread:31124 [wandb_init.py:init():892] starting backend
+2026-03-18 08:28:28,485 INFO    MainThread:31124 [wandb_init.py:init():895] sending inform_init request
+2026-03-18 08:28:28,534 INFO    MainThread:31124 [wandb_init.py:init():903] backend started and connected
+2026-03-18 08:28:28,572 INFO    MainThread:31124 [wandb_init.py:init():973] updated telemetry
+2026-03-18 08:28:28,574 INFO    MainThread:31124 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-03-18 08:28:28,690 INFO    MainThread:31124 [wandb_init.py:init():1042] starting run threads in backend
+2026-03-18 08:28:29,032 INFO    MainThread:31124 [wandb_run.py:_console_start():2524] atexit reg
+2026-03-18 08:28:29,032 INFO    MainThread:31124 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-03-18 08:28:29,032 INFO    MainThread:31124 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-03-18 08:28:29,032 INFO    MainThread:31124 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-03-18 08:28:29,038 INFO    MainThread:31124 [wandb_init.py:init():1082] run started, returning control to user process
+2026-03-18 08:28:57,999 INFO    wandb-AsyncioManager-main:31124 [service_client.py:_forward_responses():134] Reached EOF.
+2026-03-18 08:28:57,999 INFO    wandb-AsyncioManager-main:31124 [mailbox.py:close():155] Closing mailbox, abandoning 0 handles.
